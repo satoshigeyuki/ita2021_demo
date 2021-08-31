@@ -43,7 +43,7 @@ python3 plags_scripts/template_autograde.py -s exercises/demo2.ipynb
 5. `judge_util.py` をインストールする．
 
 ```sh
-python3 plags_scripts/template_autograde.py -lp -s exercises/demo2.ipynb
+python3 plags_scripts/build_autograde.py -lp -s exercises/demo2.ipynb
 ```
 
 6. `demo2.ipynb` の hidden モジュールにおいて，テストメソッドを追加する．
@@ -51,7 +51,7 @@ python3 plags_scripts/template_autograde.py -lp -s exercises/demo2.ipynb
 7. `build_autograde.py` を実行する．
 
 ```sh
-python3 plags_scripts/template_autograde.py -c judge_env.json -lp -s exercises/demo2.ipynb
+python3 plags_scripts/build_autograde.py -c judge_env.json -lp -s exercises/demo2.ipynb
 ```
 
 8. `autograde.zip` をPLAGS UTに登録する．
